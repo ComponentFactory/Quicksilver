@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Silverlight", "Test Silverlight\Test Silverlight.csproj", "{1BC60495-DB5E-4220-B31E-A12806C33EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksilver.WPF.Binding 2010", "Quicksilver.WPF.Binding\Quicksilver.WPF.Binding 2010.csproj", "{E505747A-5BC0-4CC0-AF49-7ADD9A6EDBBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksilver.WPF.Layout 2010", "Quicksilver.WPF.Layout\Quicksilver.WPF.Layout 2010.csproj", "{68A10088-D993-4A35-87A7-39904ABD33D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test WPF", "Test WPF\Test WPF.csproj", "{78DF7AA3-52B7-4D58-B0AD-C37B2D64FE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.WPF", "UnitTests.WPF\UnitTests.WPF.csproj", "{B6CD5B54-A261-48A9-AEAF-844CED9705B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksilver.Silverlight.Layout 2010", "Quicksilver.Silverlight.Layout\Quicksilver.Silverlight.Layout 2010.csproj", "{46704E22-2B60-41D5-A780-6287B3244125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC60495-DB5E-4220-B31E-A12806C33EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC60495-DB5E-4220-B31E-A12806C33EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC60495-DB5E-4220-B31E-A12806C33EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC60495-DB5E-4220-B31E-A12806C33EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E505747A-5BC0-4CC0-AF49-7ADD9A6EDBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E505747A-5BC0-4CC0-AF49-7ADD9A6EDBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E505747A-5BC0-4CC0-AF49-7ADD9A6EDBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E505747A-5BC0-4CC0-AF49-7ADD9A6EDBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A10088-D993-4A35-87A7-39904ABD33D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A10088-D993-4A35-87A7-39904ABD33D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A10088-D993-4A35-87A7-39904ABD33D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A10088-D993-4A35-87A7-39904ABD33D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DF7AA3-52B7-4D58-B0AD-C37B2D64FE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DF7AA3-52B7-4D58-B0AD-C37B2D64FE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DF7AA3-52B7-4D58-B0AD-C37B2D64FE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DF7AA3-52B7-4D58-B0AD-C37B2D64FE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6CD5B54-A261-48A9-AEAF-844CED9705B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CD5B54-A261-48A9-AEAF-844CED9705B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CD5B54-A261-48A9-AEAF-844CED9705B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CD5B54-A261-48A9-AEAF-844CED9705B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46704E22-2B60-41D5-A780-6287B3244125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46704E22-2B60-41D5-A780-6287B3244125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46704E22-2B60-41D5-A780-6287B3244125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46704E22-2B60-41D5-A780-6287B3244125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B6CD5B54-A261-48A9-AEAF-844CED9705B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComponentFactory.Quicksilver.UnitTests.WPF</RootNamespace>
+    <AssemblyName>ComponentFactory.Quicksilver.UnitTests.WPF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <StartupObject>ComponentFactory.Quicksilver.UnitTests.WPF.App</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Layouts\GridLayoutAutoSpan44ii.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStarAutoFixedSpan66.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStarSpan44ii.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStarSpan44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStarAutoFixed66ii.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStarAutoFixed66.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStarAuto44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStarFixed44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStar33.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStar33ii.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStar11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutStar11ii.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutFixedSpan44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutAutoFixedSpan44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutMissingDefs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutAutoSpan44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutAutoFixed44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutAuto44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutAuto11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutFixedSpan22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\CanvasLayout0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\DockLayout0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\DockLayout1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayout00.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ErrorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutFixed11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutFixed22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\GridLayoutFixed44.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\StackLayout0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\StackLayout1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\UniformGridLayout0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\UniformGridLayout1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\UniformGridLayout2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\WrapLayout0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\WrapLayout1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layouts\WrapLayout2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Layouts\MetaPanelWorkspaceLayoutWindow.cs" />
+    <Compile Include="Layouts\GridLayoutAutoSpan44ii.xaml.cs">
+      <DependentUpon>GridLayoutAutoSpan44ii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStarAutoFixedSpan66.xaml.cs">
+      <DependentUpon>GridLayoutStarAutoFixedSpan66.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStarSpan44ii.xaml.cs">
+      <DependentUpon>GridLayoutStarSpan44ii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStarSpan44.xaml.cs">
+      <DependentUpon>GridLayoutStarSpan44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStarAutoFixed66ii.xaml.cs">
+      <DependentUpon>GridLayoutStarAutoFixed66ii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStarAutoFixed66.xaml.cs">
+      <DependentUpon>GridLayoutStarAutoFixed66.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStarAuto44.xaml.cs">
+      <DependentUpon>GridLayoutStarAuto44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStarFixed44.xaml.cs">
+      <DependentUpon>GridLayoutStarFixed44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStar33.xaml.cs">
+      <DependentUpon>GridLayoutStar33.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStar33ii.xaml.cs">
+      <DependentUpon>GridLayoutStar33ii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStar11.xaml.cs">
+      <DependentUpon>GridLayoutStar11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutStar11ii.xaml.cs">
+      <DependentUpon>GridLayoutStar11ii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutFixedSpan44.xaml.cs">
+      <DependentUpon>GridLayoutFixedSpan44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutAutoFixedSpan44.xaml.cs">
+      <DependentUpon>GridLayoutAutoFixedSpan44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutMissingDefs.xaml.cs">
+      <DependentUpon>GridLayoutMissingDefs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutAutoSpan44.xaml.cs">
+      <DependentUpon>GridLayoutAutoSpan44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutAutoFixed44.xaml.cs">
+      <DependentUpon>GridLayoutAutoFixed44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutAuto44.xaml.cs">
+      <DependentUpon>GridLayoutAuto44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutAuto11.xaml.cs">
+      <DependentUpon>GridLayoutAuto11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutFixedSpan22.xaml.cs">
+      <DependentUpon>GridLayoutFixedSpan22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ButtonOutput.cs" />
+    <Compile Include="Layouts\CanvasLayout0.xaml.cs">
+      <DependentUpon>CanvasLayout0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DockLayout0.xaml.cs">
+      <DependentUpon>DockLayout0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DockLayout1.xaml.cs">
+      <DependentUpon>DockLayout1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayout00.xaml.cs">
+      <DependentUpon>GridLayout00.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorWindow.xaml.cs">
+      <DependentUpon>ErrorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutFixed11.xaml.cs">
+      <DependentUpon>GridLayoutFixed11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutFixed22.xaml.cs">
+      <DependentUpon>GridLayoutFixed22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayoutFixed44.xaml.cs">
+      <DependentUpon>GridLayoutFixed44.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\MetaPanelLayoutWindow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Layouts\StackLayout0.xaml.cs">
+      <DependentUpon>StackLayout0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\StackLayout1.xaml.cs">
+      <DependentUpon>StackLayout1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\UniformGridLayout0.xaml.cs">
+      <DependentUpon>UniformGridLayout0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\UniformGridLayout1.xaml.cs">
+      <DependentUpon>UniformGridLayout1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\UniformGridLayout2.xaml.cs">
+      <DependentUpon>UniformGridLayout2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UnitTestArithmetic.cs" />
+    <Compile Include="UnitTestEval.cs" />
+    <Compile Include="UnitTestLayouts.cs" />
+    <Compile Include="Layouts\WrapLayout0.xaml.cs">
+      <DependentUpon>WrapLayout0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\WrapLayout1.xaml.cs">
+      <DependentUpon>WrapLayout1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\WrapLayout2.xaml.cs">
+      <DependentUpon>WrapLayout2.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Quicksilver.WPF.Binding\Quicksilver.WPF.Binding 2010.csproj">
+      <Project>{E505747A-5BC0-4CC0-AF49-7ADD9A6EDBBB}</Project>
+      <Name>Quicksilver.WPF.Binding 2010</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quicksilver.WPF.Layout\Quicksilver.WPF.Layout 2010.csproj">
+      <Project>{68A10088-D993-4A35-87A7-39904ABD33D1}</Project>
+      <Name>Quicksilver.WPF.Layout 2010</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

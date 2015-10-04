@@ -1,0 +1,65 @@
+﻿<Window x:Class="TestWPF.MetaPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:qs="clr-namespace:ComponentFactory.Quicksilver.Layout;assembly=ComponentFactory.Quicksilver.WPF.Layout"
+    Title="MetaPanel" Width="600" Height="600" Margin="5" >
+    <Grid Margin="5" Background="Gray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="2" Background="Tan" Orientation="Horizontal">
+            <TextBlock Margin="5" VerticalAlignment="Center">Child Items</TextBlock>
+            <Button x:Name="Add" Margin="4" Click="Add_Click" Content="Add"/>
+            <Button x:Name="Add5" Margin="4" Click="Add5_Click" Content="Add x5"/>
+            <Button x:Name="Remove" Margin="4" Click="Remove_Click" Content="Remove"/>
+            <Button x:Name="Remove5" Margin="4" Click="Remove5_Click" Content="Remove x5"/>
+            <Button x:Name="Both5" Margin="4" Click="Both5_Click" Content="Both x5"/>
+            <Button x:Name="Clear" Margin="4" Click="Clear_Click" Content="Clear"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="2,0,2,2" Background="LightGray" Orientation="Horizontal">
+            <TextBlock Margin="5" VerticalAlignment="Center">Layout Strategy</TextBlock>
+            <Button x:Name="Canvas" Margin="4" Click="Canvas_Click" Content="Canvas"/>
+            <Button x:Name="Wrap" Margin="4" Click="Wrap_Click" Content="Wrap"/>
+            <Button x:Name="Stack" Margin="4" Click="Stack_Click" Content="Stack"/>
+            <Button x:Name="Stretch" Margin="4" Click="Stretch_Click" Content="Stretch"/>
+            <Button x:Name="Grid" Margin="4" Click="Grid_Click" Content="Grid"/>
+            <Button x:Name="UniformGrid" Margin="4" Click="UniformGrid_Click" Content="UniformGrid"/>
+            <Button x:Name="Dock" Margin="4" Click="Dock_Click" Content="Dock"/>
+            <Button x:Name="Radial" Margin="4" Click="Radial_Click" Content="Radial"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Margin="2,0,2,2" Background="LightGray" Orientation="Horizontal">
+            <TextBlock Margin="5" VerticalAlignment="Center">Layout DO</TextBlock>
+            <Button x:Name="Attached" Margin="4" Click="Attached_Click" Content="Attached"/>
+            <Button x:Name="WrapDO" Margin="4" Click="WrapDO_Click" Content="Wrap"/>
+            <Button x:Name="StackDO" Margin="4" Click="StackDO_Click" Content="Stack"/>
+            <Button x:Name="GridDO" Margin="4" Click="GridDO_Click" Content="Grid"/>
+            <Button x:Name="UniformGridDO" Margin="4" Click="UniformGridDO_Click" Content="UniformGrid"/>
+            <Button x:Name="DockDO" Margin="4" Click="DockDO_Click" Content="Dock"/>
+            <Button x:Name="RadialDO" Margin="4" Click="RadialDO_Click" Content="Radial"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Margin="2,0,2,0" Background="LightSkyBlue" Orientation="Horizontal">
+            <TextBlock Margin="5" VerticalAlignment="Center">Animation</TextBlock>
+            <Button x:Name="Easing2" Margin="4" Click="Easing_Click" Content="Easing"/>
+            <Button x:Name="Duration" Margin="4" Click="Duration_Click" Content="Duration"/>
+            <Button x:Name="Opacity2" Margin="4" Click="Opacity_Click" Content="Opacity"/>
+            <Button x:Name="Location" Margin="4" Click="Location_Click" Content="Location"/>
+            <Button x:Name="Size2" Margin="4" Click="Size_Click" Content="Size"/>
+        </StackPanel>
+        <qs:MetaPanel ClipToBounds="True" Grid.Row="4" Background="Snow" Margin="2" x:Name="TargetPanel">
+            <qs:MetaPanel.LayoutDefinitions>
+                <qs:WrapLayout/>
+            </qs:MetaPanel.LayoutDefinitions>            
+            <qs:MetaPanel.AnimateDefinitions>
+                <qs:NewOpacityAnimate x:Name="NewOpacity" />
+                <qs:RemoveOpacityAnimate x:Name="RemoveOpacity"/>
+                <qs:NewPositionAnimate x:Name="NewPosition" Location="BottomLeft"/>
+                <qs:MovePositionAnimate x:Name="MovePosition"/>
+                <qs:RemovePositionAnimate x:Name="RemovePosition" Location="BottomRight"/>
+            </qs:MetaPanel.AnimateDefinitions>
+        </qs:MetaPanel>        
+    </Grid>
+</Window>

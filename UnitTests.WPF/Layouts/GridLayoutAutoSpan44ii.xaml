@@ -1,0 +1,65 @@
+﻿<local:MetaPanelLayoutWindow x:Class="ComponentFactory.Quicksilver.UnitTests.WPF.GridLayoutAutoSpan44ii"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ComponentFactory.Quicksilver.UnitTests.WPF"
+    xmlns:qs="clr-namespace:ComponentFactory.Quicksilver.Layout;assembly=ComponentFactory.Quicksilver.WPF.Layout"
+    Title="GridLayoutAutoSpan44ii" Height="459" Width="243">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        <Canvas Grid.Row="0" Grid.Column="0">
+            <local:GridOutput x:Name="original">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <local:ButtonOutput Grid.Column="0" Grid.Row="0" Content="A"/>
+                <local:ButtonOutput Grid.Column="1" Grid.Row="0" Content="A"/>
+                <local:ButtonOutput Grid.Column="2" Grid.Row="0" Content="A"/>
+                <local:ButtonOutput Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2" Content="XYZ"/>
+                <local:ButtonOutput Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Content="QWERTY"/>
+                <local:ButtonOutput Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="4" Content="QWERTY"/>
+            </local:GridOutput>
+        </Canvas>            
+        <Canvas Grid.Row="1" Grid.Column="0">
+            <qs:MetaPanel x:Name="morph">
+                <qs:MetaPanel.LayoutDefinitions>
+                    <qs:GridLayout>
+                        <qs:GridLayout.ColumnDefinitions>
+                            <qs:ColumnDefinition Width="Auto"/>
+                            <qs:ColumnDefinition Width="Auto"/>
+                            <qs:ColumnDefinition Width="Auto"/>
+                            <qs:ColumnDefinition Width="Auto"/>
+                        </qs:GridLayout.ColumnDefinitions>
+                        <qs:GridLayout.RowDefinitions>
+                            <qs:RowDefinition Height="Auto"/>
+                            <qs:RowDefinition Height="Auto"/>
+                            <qs:RowDefinition Height="Auto"/>
+                            <qs:RowDefinition Height="Auto"/>
+                        </qs:GridLayout.RowDefinitions>
+                    </qs:GridLayout>
+                </qs:MetaPanel.LayoutDefinitions>
+                <local:ButtonOutput qs:GridLayout.Column="0" qs:GridLayout.Row="0" Content="A"/>
+                <local:ButtonOutput qs:GridLayout.Column="1" qs:GridLayout.Row="0" Content="A"/>
+                <local:ButtonOutput qs:GridLayout.Column="2" qs:GridLayout.Row="0" Content="A"/>
+                <local:ButtonOutput qs:GridLayout.Column="1" qs:GridLayout.Row="1" qs:GridLayout.RowSpan="2" qs:GridLayout.ColumnSpan="2" Content="XYZ"/>
+                <local:ButtonOutput qs:GridLayout.Column="1" qs:GridLayout.Row="1" qs:GridLayout.ColumnSpan="3" Content="QWERTY"/>
+                <local:ButtonOutput qs:GridLayout.Column="0" qs:GridLayout.Row="2" qs:GridLayout.ColumnSpan="4" Content="QWERTY"/>
+            </qs:MetaPanel>
+        </Canvas>
+    </Grid>
+</local:MetaPanelLayoutWindow>
+
